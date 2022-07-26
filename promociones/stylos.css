@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: 100px;
+    background: rgb(241, 186, 4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 1px 4px 14px 4px rgba(0,0,0,0,75);
+}
+.nadvar{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+.menu a{
+    font-size: 19px;
+    padding: 10px 20px;
+    color: grey;
+    transition: 0.5s;
+}
+.menu a:hover{
+    background: rgba(0,0,0,0,5);
+    color: rgb(160, 19, 216);
+}
+.logo{
+    font-size: 25px;
+    cursor: pointer;
+}
+.logo span{
+    color: grey;
+}
+.responsive{
+    display: none;
+}
+
+   
+.texto{
+    width: 100%;
+    text-align: center;
+    padding: 100px 0px;
+}
+.texto h2{
+    font-size: 50px;
+    color: gray;
+}
+.img-main{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.img-food{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.img-food img{
+    width: 22%;
+    height: 180px;
+    margin: 10px;
+    transition: 00.5s;
+}
+.img-food img:hover{
+    filter: grayscale(3);
+}
+
+
+body {
+    background-color: rgb(255, 255, 255); 
+    border: rgb(5, 5, 5);
+    background-image: url(./img/depositphotos_48690405-stock-illustration-fast-food-pattern.jpg);
+ }
+ Td{
+     color: rgb(0, 0, 0);
+ }
+
+
+ .texto h2{
+    font-size: 50px;
+    color: rgb(7, 7, 7);
+    --dark: rgb(17, 0, 252);
+}
+.footer{
+    width: 200%;
+    height: 150px;
+    background: rgb(241, 186, 4);
+}
+.footer{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.sociales{
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+.sociales i{
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 50%;
+}
+.sociales i:hover{
+    background: black;
+    border-radius: 50%;
+}
+
+.precios{
+    width: 100%;
+
+}
